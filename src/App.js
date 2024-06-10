@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/job-management-frontend">
       <div>
         <Routes>
           <Route path="/" element={<JobList />} />
