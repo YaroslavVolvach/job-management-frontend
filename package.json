@@ -7,8 +7,11 @@
     "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext .js,.jsx"
+    "lint": "eslint . --ext .js,.jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://yaroslavvolvach.github.io/job-management-frontend",
   "dependencies": {
     "axios": "^0.21.1",
     "react": "^18.3.1",
@@ -38,6 +41,7 @@
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
+    "gh-pages": "^6.1.1",
     "web-vitals": "^4.1.0",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
