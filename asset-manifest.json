@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/job-management-frontend/static/css/main.adbaa568.css",
-    "main.js": "/job-management-frontend/static/js/main.945e4607.js",
+    "main.css": "/job-management-frontend/static/css/main.a40af5eb.css",
+    "main.js": "/job-management-frontend/static/js/main.63f23887.js",
+    "static/js/488.958c1d48.chunk.js": "/job-management-frontend/static/js/488.958c1d48.chunk.js",
     "index.html": "/job-management-frontend/index.html",
-    "main.adbaa568.css.map": "/job-management-frontend/static/css/main.adbaa568.css.map",
-    "main.945e4607.js.map": "/job-management-frontend/static/js/main.945e4607.js.map"
+    "main.a40af5eb.css.map": "/job-management-frontend/static/css/main.a40af5eb.css.map",
+    "main.63f23887.js.map": "/job-management-frontend/static/js/main.63f23887.js.map",
+    "488.958c1d48.chunk.js.map": "/job-management-frontend/static/js/488.958c1d48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adbaa568.css",
-    "static/js/main.945e4607.js"
+    "static/css/main.a40af5eb.css",
+    "static/js/main.63f23887.js"
   ]
 }
