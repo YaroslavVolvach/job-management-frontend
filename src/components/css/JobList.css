@@ -1,0 +1,69 @@
+/* JobList.css */
+.job-list-container {
+  padding: 20px;
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sort-button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+}
+
+.sort-button:hover {
+  background-color: #e0e0e0;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-actions .detail-button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 0 2px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+
+.pagination button.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination button[disabled] {
+  cursor: not-allowed;
+  background-color: #f9f9f9;
+}

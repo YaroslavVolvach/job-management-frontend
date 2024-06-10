@@ -1,0 +1,27 @@
+.about-me-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+.about-me-container h1,
+.about-me-container h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-me-container p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-me-container strong {
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
