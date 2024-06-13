@@ -22,19 +22,14 @@ const Navbar = ({ disabled = false }) => {
         <Link to="/cover-letter" className="navbar-link">
           Cover Letter
         </Link>
-        {disabled ? (
-          <button
-            className="create-job-button"
-            disabled
-            onClick={handleCreateClick}
-          >
-            Create New Job
-          </button>
-        ) : (
-          <button className="create-job-button" onClick={handleCreateClick}>
-            Create New Job
-          </button>
-        )}
+
+        <button
+          className="create-job-button"
+          disabled={disabled}
+          onClick={handleCreateClick}
+        >
+          Create New Job
+        </button>
       </div>
     </nav>
   );

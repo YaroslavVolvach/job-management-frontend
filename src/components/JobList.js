@@ -107,7 +107,7 @@ const JobList = () => {
               <li key={job._id} className="job-list-item">
                 <div className="job-info">
                   <div className="job-details">
-                    <p>{`${job.customerName} : ${job.status} : ${new Date(
+                    <p>{`${job.customerName} | ${job.status} | ${new Date(
                       job.appointmentDate
                     ).toLocaleString('en-US', options)}`}</p>
                   </div>
